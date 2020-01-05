@@ -37,8 +37,8 @@ MODEL:
     SHARE_BOX_FEATURE_EXTRACTOR: False
     KGNN2D: True
 DATASETS:
-  TRAIN: ("keypoints_carfusion_test_cocostyle", )
-  TEST: ("keypoints_carfusion_train_cocostyle",)
+  TRAIN: ("keypoints_carfusion_train_cocostyle", )
+  TEST: ("keypoints_carfusion_test_cocostyle",)
 INPUT:
   MIN_SIZE_TRAIN: (640, 672, 704, 736, 768, 800)
 DATALOADER:
